@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Manual trigger
 env:
   AWS_REGION: "eu-central-1"
-  AWS_ACCOUNT_ID: "288761758415"
+  AWS_ACCOUNT_ID: "168029731319"
 
 permissions:
   contents: read # This is required for actions/checkout
