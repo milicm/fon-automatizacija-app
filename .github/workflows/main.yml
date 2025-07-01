@@ -92,6 +92,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: fon-automatizacija-service
+          service: app-task-service-ji9y3zvf
           cluster: fon-automatizacija-cluster
           wait-for-service-stability: true
